@@ -190,6 +190,8 @@ h1 .given {
 .btn.ghost:hover { background: rgba(255, 255, 255, 0.1); border-color: var(--on-night); }
 .btn .arr { transition: transform 0.2s var(--ease); }
 .btn:hover .arr { transform: translateX(4px); }
+.btn:hover .arr.dl { transform: translateY(3px); }
+.contact-cta { margin-top: 28px; }
 
 .facts { margin: 0; display: grid; }
 .facts div { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 12px; padding-block: 13px; border-top: 1px solid var(--night-line); }
@@ -448,6 +450,7 @@ h1 .given {
         <div class="cta">
           <a class="btn primary" href="#projets">Voir les projets <span class="arr" aria-hidden="true">→</span></a>
           <a class="btn ghost" href="#contact">Me contacter</a>
+          <a class="btn ghost" href="CV-YODA-Bila.pdf" download="CV-YODA-Bila.pdf">Télécharger mon CV <span class="arr dl" aria-hidden="true">↓</span></a>
         </div>
       </div>
       <dl class="facts rise" style="--d: 0.28s">
@@ -740,6 +743,7 @@ h1 .given {
     <span class="num">06</span>
     <h2 id="h-contact">Un poste, un stage<em>?</em> Écrivez-moi<em>.</em></h2>
     <p>Je cherche un emploi ou un stage en développement logiciel. Je suis disponible à temps plein : mon master se déroule en cours du soir.</p>
+    <div class="cta contact-cta"><a class="btn primary" href="CV-YODA-Bila.pdf" download="CV-YODA-Bila.pdf">Télécharger mon CV <span class="arr dl" aria-hidden="true">↓</span></a></div>
     <dl class="contact">
       <div class="item">
         <dt>E-mail</dt>
